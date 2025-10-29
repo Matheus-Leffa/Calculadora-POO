@@ -6,7 +6,8 @@ public class Divisao extends Operacao{
     @Override
     public void calcular() {
         if(b == 0) {
-            throw new IllegalArgumentException("Não é possível fazer divisão por 0");
+            System.out.println("Não é possível fazer divisão por 0");
+            return;
         }
         result = a / b;
     }
