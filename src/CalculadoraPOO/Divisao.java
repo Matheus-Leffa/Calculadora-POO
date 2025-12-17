@@ -1,4 +1,6 @@
-public class Divisao extends Operacao{
+package CalculadoraPOO;
+
+public class Divisao extends Operacao {
     public Divisao(double a, double b) {
         super(a, b);
     }

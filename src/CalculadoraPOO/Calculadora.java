@@ -1,3 +1,5 @@
+package CalculadoraPOO;
+
 public class Calculadora {
     private HistoricoCalculos historico = new HistoricoCalculos();
 

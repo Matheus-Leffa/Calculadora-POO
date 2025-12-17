@@ -1,4 +1,6 @@
-public class Soma extends Operacao{
+package CalculadoraPOO;
+
+public class Soma extends Operacao {
     public Soma(double a, double b) {
         super(a, b);
     }

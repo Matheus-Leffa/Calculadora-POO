@@ -1,3 +1,5 @@
+package CalculadoraPOO;
+
 public abstract class Operacao {
     protected double a;
     protected double b;
